@@ -1,0 +1,30 @@
+
+.navbar {
+    position: sticky;
+    z-index: 999;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+
+    .leftnav{
+        img {
+            width: 130px;
+        }
+    }
+    .rightnav{
+        a{
+            img{
+                width: 24px;
+            }
+        }
+           
+        .dropdown {
+
+            button{
+
+                font-family: 'Gotham-Book';
+                font-size: 16px !important;
+ 
+            }
+        }
+    }
+
+}
