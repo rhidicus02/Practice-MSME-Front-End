@@ -2,3 +2,18 @@
     font-family: 'Gotham-Book';
     src: url('./assets/fonts/Gotham-Book.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('./assets/fonts/Gotham-Bold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Heveltica-Neue';
+    src: url('./assets/fonts/helvetica-neue-5-cufonfonts/HelveticaNeueMedium.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('./assets/fonts/GothamMedium.otf') format('opentype');
+}
+body{
+    background-color: #F8F8FA !important;
+}

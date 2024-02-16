@@ -5,6 +5,7 @@ const businessinfo = () => {
   return (
     <>
       <Components.Header />
+      <Components.Sidebar />
     </>
   );
 };

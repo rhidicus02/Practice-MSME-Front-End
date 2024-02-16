@@ -12,6 +12,7 @@ import Navburger from "./nav-burger-menu.png";
 import Navhome from "./nav-home.png";
 import Prizes from "./prizes-and-promos.png";
 import Notif from "./notifications.png";
+import Chatbot from "./chatbot.svg";
 
 export const Icons ={ 
     Client,
@@ -28,4 +29,5 @@ export const Icons ={
     Navhome,
     Prizes,
     Notif,
+    Chatbot,
 };

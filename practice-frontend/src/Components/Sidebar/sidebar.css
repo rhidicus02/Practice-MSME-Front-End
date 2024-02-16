@@ -1,0 +1,33 @@
+.sidebar {
+    height: calc(100vh - 60px); /* Set the height of the sidebar */
+    width: 300px; /* Initial width */
+    background-color: #fff; /* Background color */
+    transition: width 0.5s ease; /* Smooth transition effect for width */
+  
+    &.collapsed {
+      width: 90px; /* Collapsed width */
+      span {
+        visibility: hidden;
+      }
+    }
+  
+    .column {
+      a {
+        color: #6C757D; /* Link text color */
+        padding: 15px; /* Padding for links */
+        margin-left: 5px; /* Left margin for links */
+        font-family: 'Gotham-Medium'; /* Font family */
+        font-size: 16px; /* Font size */
+        white-space: nowrap; /* Prevent line breaks */
+        display: flex; /* Flexbox layout */
+        align-items: center; /* Center align items vertically */
+  
+        img {
+          width: 24px !important; /* Adjust image width */
+          margin-right: 15px; /* Right margin for images */
+          margin-top: 5px; /* Top margin for images */
+        }
+      }
+    }
+  }
+  
